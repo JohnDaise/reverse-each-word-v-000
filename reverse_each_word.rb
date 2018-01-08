@@ -4,4 +4,5 @@ def reverse_each_word(sentence)
     element.reverse!
     sentence<<element
   end
+  sentence
 end
