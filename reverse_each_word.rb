@@ -1,7 +1,7 @@
 def reverse_each_word(sentence)
   sentence.split(" ").each do |element|
     element.reverse!
-    sentence<<element
+    element
   end
   sentence
 end
