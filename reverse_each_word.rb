@@ -1,8 +1,8 @@
 def reverse_each_word(sentence)
-  sentence = "The hunt is on."
+  sentence = []
   sentence.split(" ").each do |element|
     element.reverse!
-    puts element
-    element * " "
+    sentence<<element
   end
+  sentence
 end
