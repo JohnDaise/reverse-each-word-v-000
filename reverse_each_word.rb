@@ -5,5 +5,5 @@ def reverse_each_word(sentence)
     element.reverse!
     a<< element
   end
-  a.join
+
 end
