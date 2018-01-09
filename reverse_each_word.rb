@@ -1,7 +1,7 @@
 def reverse_each_word(sentence)
   sentence = "Hello how are you?"
-  sentence.split(" ").collect do |element|
+  sentence.split(" ").collect.join do |element|
     element.reverse!
-    element.join(",")
+
   end
 end
